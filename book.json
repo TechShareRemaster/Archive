@@ -2,7 +2,7 @@
   "root": "./docs",
   "title": "Techshare",
   "description": "테크쉐어 스터디 기록 저장소",
-  "plugins": ["googledocs"],
+  "plugins": ["googledocs", "embed-pdf"],
   "googledocs": {
     "frameborder": "0",
     "width": "100%",

@@ -12,9 +12,11 @@
 - [블록체인 스터디](/project003/Blockchain.md)
   - 김근후, 이상훈
 - [머신러닝 스터디](/project003/MachineLearning.md)
-  - 이현진, 공윤구, 김현곤
+  - 이현진, 공윤구, 김현곤, 양의현
 - [데이터 분석 기초 with 파이썬](/project003/DataScience.md)
   - 조규진
 - [React + Cordova + China!](/project003/React+Cordova.md)
   - 유성민
-- 문태웅, 양의현, 주민우
+- [React TDD](/project003/ReactTDD.md)
+  - 주민우
+- 문태웅
