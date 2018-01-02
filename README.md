@@ -31,11 +31,6 @@ yarn gitbook serve
 ```
 위 커맨드를 실행하면 `localhost:3000`에서 로컬 문서를 확인할 수 있습니다. Hot Reload를 지원합니다.
 
-```
-yarn gitbook build
-```
-`_book` 폴더 하위에 `html` 파일들을 빌드합니다.
-
 
 ## 문서 페이지 배포
 
@@ -46,6 +41,7 @@ yarn publish-gitbook
 ```
 
 위 커맨드를 실행하면
+1. static html을 생성하고
 1. `gh-pages` 브랜치로 체크아웃한 후
 1. `origin/master`의 업데이트를 반영하고 
 1. `_book` 폴더 내의 빌드 결과물을 root로 옮긴 후 푸시합니다. 
