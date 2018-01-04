@@ -12,6 +12,7 @@ cp -R _book/* .
 
 # remove 'docs' and '_book' directory
 git clean -fx _book
+git clean -fx docs
 
 # add all files
 git add .
