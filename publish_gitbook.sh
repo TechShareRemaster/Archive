@@ -6,13 +6,15 @@ git checkout gh-pages
 
 # pull the latest updates
 git pull origin master --rebase
+git rm -rf docs
+git add . 
+git rebase --continue
 
 # copy the static site files into the current directory.
 cp -R _book/* .
 
-# remove 'docs' and '_book' directory
+# remove '_book' directory
 git clean -fx _book
-git clean -fx docs
 
 # add all files
 git add .
