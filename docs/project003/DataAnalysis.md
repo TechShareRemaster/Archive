@@ -13,3 +13,17 @@
 3. [Introduction to Statistics](https://www.udacity.com/course/intro-to-statistics--st101): 2주
 4. [Creating an Analytical Dataset](https://www.udacity.com/course/creating-an-analytical-dataset--ud977): 2주
 
+
+## 1주
+
+- [Introduction to Python](https://www.udacity.com/course/introduction-to-python--ud1110)
+  - [x] **Lesson 1. Numbers and Strings**
+    - `**`: js에도 있었음.. 충격.., `//`
+    - `aeb` 형태의 scientific notation
+    - `string*number = stringstringstring... n번`
+    - `title(), isLower(), count()` 등 string methods
+    - `string_template.format()`
+  - [x] **Lesson 2. Functions, Installation and Conditionals**
+  - [ ] Lesson 3. Data Structures and Loops
+  - [ ] Lesson 4. Files and Modules
+  - [ ] Lesson 5. Wikipedia Web Crawl Case Study
