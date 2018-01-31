@@ -43,5 +43,17 @@
   - [x] Lesson 1. Numbers and Strings
   - [x] Lesson 2. Functions, Installation and Conditionals
   - [x] Lesson 3. Data Structures and Loops
-  - [x] **Lesson 4. Files and Modules**
+  - [x]ㅈ **Lesson 4. Files and Modules**
+    - Default variables
+      ```python
+        def todo_list(new_task, base_list=['wake up']):
+          base_list.append(new_task)
+          return base_list
+
+        todo_list("check the mail")
+        todo_list("begin orbital transfer")
+        """ >>> ['wake up', 'check the mail', 'begin orbital transfer'] ???? """
+      ```
+    - `UnboundLocalError`: Python doesn't allow functions to modify variables that aren't in the function's scope.
+
   - [...] **Lesson 5. Wikipedia Web Crawl Case Study**
